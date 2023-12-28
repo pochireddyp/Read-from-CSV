@@ -17,12 +17,14 @@ Step 5: Print the output.
 ## PROGRAM:
 # Developed by:pochiredddy.p
 # Register Number: 23006090
+```
 import pandas as pd
 df = pd.read_csv('pandascsv.csv')
 print(df.head(10))
 print(df.tail())
 print("Number of rows:",len(df.axes[0]))
 print("Number of columns:",len(df.axes[1]))
+```
 ## OUTPUT:
 ![image](https://github.com/pochireddyp/Read-from-CSV/assets/150232043/a6508c7b-fc6b-4e8c-9602-b2ec6c8b6bbb)
 
